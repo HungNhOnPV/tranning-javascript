@@ -1,0 +1,70 @@
+section.account {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto 85px auto;
+}
+section.account .table {
+  width: 75%;
+}
+section.account .table h1 {
+  font-size: 28px;
+  font-family: "openSans";
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 30px;
+}
+section.account .table table {
+  border: 1px solid #e1e1e1;
+  border-collapse: collapse;
+}
+section.account .table table tr {
+  border: 1px solid #e1e1e1;
+  border-collapse: collapse;
+}
+section.account .table table tr th {
+  font-size: 16px;
+  font-family: "openSans";
+  color: #212121;
+  text-transform: uppercase;
+  border: 1px solid #e1e1e1;
+  border-collapse: collapse;
+  padding: 12px;
+  background-color: #fafafa;
+}
+section.account .table table tr td {
+  text-align: center;
+  border: 1px solid #e1e1e1;
+  border-collapse: collapse;
+  padding: 35px;
+}
+section.account .table table tr td:nth-child(3) {
+  color: #d90a0a;
+}
+section.account .detailAccount {
+  width: 23%;
+}
+section.account .detailAccount h2 {
+  font-size: 14px;
+  font-family: "openSans";
+  margin: 25px 0;
+}
+section.account .detailAccount i {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+section.account .detailAccount i p:nth-child(1) {
+  font-size: 14px;
+  font-family: "openSans";
+  display: inline-block;
+  margin: 0 auto 10px 5px;
+}
+section.account .detailAccount i p:nth-child(2) {
+  font-size: 14px;
+  font-family: "openSans";
+  margin-left: 20px;
+}
+section.account .detailAccount i:nth-child(2) p:nth-child(1) {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=main.css.map */

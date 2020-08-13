@@ -1,0 +1,78 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "tyffany",
+      "content": "Mỹ phẩm châu âu",
+      "price": 350000,
+      "sale": "450.000",
+      "image": "http://127.0.0.1:5500/public/images/image9.jpg",
+      "amount": 20
+    },
+    {
+      "id": 2,
+      "title": "tyffany",
+      "content": "Mỹ phẩm châu âu",
+      "price": 350000,
+      "sale": "450.000",
+      "image": "http://127.0.0.1:5500/public/images/image10.jpg",
+      "amount": 20
+    },
+    {
+      "id": 3,
+      "title": "tyffany",
+      "content": "Mỹ phẩm châu âu",
+      "price": 350000,
+      "sale": "450.000",
+      "image": "http://127.0.0.1:5500/public/images/image11.jpg",
+      "amount": 20
+    },
+    {
+      "id": 4,
+      "title": "tyffany",
+      "content": "Mỹ phẩm châu âu",
+      "price": 350000,
+      "sale": "450.000",
+      "image": "http://127.0.0.1:5500/public/images/image12.jpg",
+      "amount": 20
+    },
+    {
+      "id": 5,
+      "title": "tyffany",
+      "content": "Mỹ phẩm châu âu",
+      "price": 350000,
+      "sale": "450.000",
+      "image": "http://127.0.0.1:5500/public/images/image13.jpg",
+      "amount": 20
+    },
+    {
+      "id": 6,
+      "title": "tyffany",
+      "content": "Mỹ phẩm châu âu",
+      "price": 350000,
+      "sale": "450.000",
+      "image": "http://127.0.0.1:5500/public/images/image14.jpg",
+      "amount": 20
+    }
+  ],
+  "cart": [
+    {
+      "id": 1,
+      "title": "tyffany",
+      "content": "Mỹ phẩm châu âu",
+      "price": 350000,
+      "sale": "450.000",
+      "image": "http://127.0.0.1:5500/public/images/image9.jpg",
+      "count": 1
+    },
+    {
+      "id": 2,
+      "title": "tyffany",
+      "content": "Mỹ phẩm châu âu",
+      "price": 350000,
+      "sale": "450.000",
+      "image": "http://127.0.0.1:5500/public/images/image10.jpg",
+      "count": 1
+    }
+  ]
+}

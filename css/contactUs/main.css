@@ -1,0 +1,60 @@
+section.contactUs {
+  margin: 30px auto 85px auto;
+}
+section.contactUs h1 {
+  font-size: 28px;
+  font-family: "openSans";
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 30px;
+}
+section.contactUs .contact {
+  display: flex;
+  justify-content: space-between;
+}
+section.contactUs .contact h2 {
+  font-size: 18px;
+  font-family: "openSans";
+  margin-bottom: 20px;
+  color: #202020;
+  text-transform: uppercase;
+}
+section.contactUs .contact__map {
+  width: 49%;
+}
+section.contactUs .contact__email {
+  width: 49%;
+}
+section.contactUs .contact__email .form__input {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
+}
+section.contactUs .contact__email .form__input label {
+  font-size: 12px;
+  font-family: "openSansSemiBold";
+}
+section.contactUs .contact__email .form__input input {
+  padding: 10px;
+  width: 85%;
+  border: 1px solid #e7e7e7;
+}
+section.contactUs .contact__email .form__input textarea {
+  padding: 10px;
+  width: 85%;
+  border: 1px solid #e7e7e7;
+}
+section.contactUs .contact__email .form span {
+  font-size: 12px;
+  font-family: "openSans";
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 20px 0 0 10px;
+  padding: 10px 20px;
+  background: #1a1a1a;
+  color: #fff;
+  float: right;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=main.css.map */

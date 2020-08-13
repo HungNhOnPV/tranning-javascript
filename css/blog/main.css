@@ -1,0 +1,119 @@
+section.blog {
+  margin: 30px auto 85px auto;
+}
+section.blog h1 {
+  font-size: 28px;
+  font-family: "openSans";
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 30px;
+}
+section.blog .content .header, section.blog .content .footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  padding: 11px 0;
+  border-bottom: 1px solid #e6e6e6;
+}
+section.blog .content .header .type a, section.blog .content .footer .type a {
+  color: #212121;
+}
+section.blog .content .header .type a i, section.blog .content .footer .type a i {
+  margin-right: 10px;
+}
+section.blog .content .header .list span, section.blog .content .footer .list span {
+  margin: 0 10px;
+  cursor: pointer;
+}
+section.blog .content .header .list span:hover, section.blog .content .footer .list span:hover {
+  color: #789629;
+}
+section.blog .content .main .listBlog {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+section.blog .content .main .listBlog .blog {
+  width: 32%;
+}
+section.blog .content .main .listBlog .blog__image {
+  background: url("../../images/image10.png") no-repeat;
+  width: 100%;
+  height: 190px;
+}
+section.blog .content .main .listBlog .blog h2 {
+  font-size: 18px;
+  font-family: "openSans";
+  padding: 5px 0 10px 0;
+  color: #202020;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e6e6e6;
+}
+section.blog .content .main .listBlog .blog p {
+  font-size: 14px;
+  font-family: "openSans";
+  color: #6d6d6d;
+  padding: 10px 0 15px 0;
+  width: 100%;
+}
+section.blog .content .main .listBlog .blog i {
+  font-size: 14px;
+  font-family: "openSans";
+  color: #b4b4b4;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 15px;
+  display: block;
+}
+section.blog .content .main .listBlog .blog__footer {
+  display: flex;
+  justify-content: space-between;
+}
+section.blog .content .main .listBlog .blog__footer span {
+  font-size: 14px;
+  font-family: "openSans";
+  color: #b4b4b4;
+  padding-top: 10px;
+  cursor: pointer;
+}
+section.blog .content .main .listBlog .blog:nth-child(2) .blog__image {
+  background: url("../../images/image11.png") no-repeat;
+  width: 100%;
+  height: 190px;
+}
+section.blog .content .main .listBlog .blog:nth-child(3) .blog_image {
+  background: url("../../images/image12.png") no-repeat;
+  width: 100%;
+  height: 190px;
+}
+section.blog .content .main .listBlog:nth-child(2) .blog:nth-child(1) .blog__image {
+  background: url("../../images/image13.png") no-repeat;
+  width: 100%;
+  height: 190px;
+}
+section.blog .content .main .listBlog:nth-child(2) .blog:nth-child(2) .blog__image {
+  background: url("../../images/image14.png") no-repeat;
+  width: 100%;
+  height: 190px;
+}
+section.blog .content .main .listBlog:nth-child(2) .blog:nth-child(3) .blog__image {
+  background: url("../../images/image15.png") no-repeat;
+  width: 100%;
+  height: 190px;
+}
+section.blog .content .main .listBlog:nth-child(3) .blog:nth-child(1) .blog__image {
+  background: url("../../images/image16.png") no-repeat;
+  width: 100%;
+  height: 190px;
+}
+section.blog .content .main .listBlog:nth-child(3) .blog:nth-child(2) .blog__image {
+  background: url("../../images/image17.png") no-repeat;
+  width: 100%;
+  height: 190px;
+}
+section.blog .content .main .listBlog:nth-child(3) .blog:nth-child(3) .blog__image {
+  background: url("../../images/image18.png") no-repeat;
+  width: 100%;
+  height: 190px;
+}
+
+/*# sourceMappingURL=main.css.map */

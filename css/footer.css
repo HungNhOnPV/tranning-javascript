@@ -1,0 +1,115 @@
+footer {
+  padding: 45px 0 40px 0;
+  background: #050505;
+  color: #d1d1d1;
+}
+footer .layout {
+  border-bottom: 1px solid #464646;
+}
+footer .layout .row {
+  justify-content: space-between;
+}
+footer .layout .row .contact {
+  width: 32%;
+}
+footer .layout .row .contact h1 {
+  font-size: 18px;
+  font-family: "openSans";
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+footer .layout .row .contact i {
+  padding: 3px 3px;
+}
+footer .layout .row .contact i p {
+  font-size: 14px;
+  font-family: "roboto";
+  display: inline-block;
+  color: #464646;
+  transition: 0.5s;
+}
+footer .layout .row .contact i::before {
+  display: inline-block;
+  margin: 10px 10px 10px 0;
+  color: #789629;
+}
+footer .layout .row .contact i:nth-child(4), footer .layout .row .contact i:nth-child(6) {
+  margin: 10px;
+}
+footer .layout .row .contact i:nth-child(2) p {
+  width: 80%;
+  line-height: 3;
+  margin-left: 40px;
+}
+footer .layout .row .contact i:nth-child(2)::before {
+  position: absolute;
+}
+footer .layout .row .contact i:hover p {
+  color: #789629;
+  transition: 0.5s;
+}
+footer .layout .row .list {
+  width: 16%;
+}
+footer .layout .row .list h1 {
+  font-size: 18px;
+  font-family: "openSans";
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+footer .layout .row .list ul {
+  line-height: 3.2;
+  font-size: 14px;
+  font-family: "openSans";
+  color: #464646;
+  transition: 0.5s;
+}
+footer .layout .row .list ul li {
+  list-style: none;
+  position: relative;
+}
+footer .layout .row .list ul li a {
+  text-decoration: none;
+  color: #464646;
+}
+footer .layout .row .list ul li::before {
+  content: "";
+  background: #789629;
+  position: absolute;
+  top: 21px;
+  left: -10px;
+  z-index: 999;
+  width: 3px;
+  height: 3px;
+  opacity: 0;
+  transition: 0.5s;
+}
+footer .layout .row .list ul li:hover, footer .layout .row .list ul li a:hover {
+  position: relative;
+  top: 0;
+  left: 10px;
+  z-index: 999;
+  color: #789629;
+  transition: 0.5s;
+}
+footer .layout .row .list ul li:hover::before {
+  opacity: 1;
+  transition: 0.5s;
+}
+footer .footer__bottom p {
+  font-size: 14px;
+  font-family: "openSans";
+  display: inline-block;
+  margin-top: 30px;
+  color: #464646;
+}
+footer .footer__bottom__pay {
+  background: url("../images/image8.png") no-repeat;
+  width: 280px;
+  height: 25px;
+  margin-top: 30px;
+  float: right;
+  background-position: center;
+}
+
+/*# sourceMappingURL=footer.css.map */

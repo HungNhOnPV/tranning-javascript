@@ -1,0 +1,47 @@
+section.navbar {
+  position: relative;
+  background-color: #f1f1f1;
+  height: 771px;
+}
+section.navbar .layout {
+  background: url("../../images/bg_image.jpg") no-repeat;
+  width: 100%;
+  height: 857px;
+  position: absolute;
+  top: -86px;
+  left: auto;
+  z-index: 200;
+  background-position: center;
+}
+section.navbar .layout .content {
+  position: absolute;
+  top: 565px;
+  left: 20%;
+  z-index: 200;
+  text-align: center;
+}
+section.navbar .layout .content h1 {
+  color: #789629;
+  font-size: 141px;
+  font-family: "viceroy";
+}
+section.navbar .layout .content p {
+  font-size: 19px;
+  font-family: "openSansLight";
+}
+section.navbar .layout .content h2 {
+  color: #789629;
+  font-size: 34px;
+  font-family: "openSansLight";
+}
+section.navbar .layout .content span {
+  display: inline-block;
+  margin-top: 28px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: "openSansLight";
+}
+
+/*# sourceMappingURL=navbar.css.map */

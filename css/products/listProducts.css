@@ -1,0 +1,68 @@
+section.main .content .listProducts {
+  margin-top: 45px;
+}
+section.main .content .listProducts .product {
+  margin-bottom: 54px;
+  display: flex;
+  justify-content: space-between;
+}
+section.main .content .listProducts .product__image {
+  background: url("../../images/image12.jpg") no-repeat;
+  width: 270px;
+  height: 300px;
+  background-position: center;
+  border-bottom: 1px dashed #e6e6e6;
+}
+section.main .content .listProducts .product__detail h1 {
+  font-size: 18px;
+  font-family: "openSans";
+  padding-bottom: 15px;
+}
+section.main .content .listProducts .product__detail__icon {
+  font-size: 16px;
+  font-family: "openSansLight";
+}
+section.main .content .listProducts .product__detail__icon i {
+  margin: 0 3px 22px 0;
+}
+section.main .content .listProducts .product__detail__icon p {
+  display: inline;
+}
+section.main .content .listProducts .product__detail__description {
+  font-size: 14px;
+  font-family: "openSans";
+  color: #adadad;
+}
+section.main .content .listProducts .product__detail h2 {
+  font-size: 24px;
+  font-family: "lobster";
+  margin: 25px 0;
+}
+section.main .content .listProducts .product__action span {
+  font-size: 14px;
+  font-family: "openSansBold";
+  padding: 10px;
+  border: 1px solid #b4b4b4;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+section.main .content .listProducts .product__action span:hover {
+  background: #789629;
+  color: #fff;
+  transition: 0.5s;
+}
+section.main .content .listProducts .product__action i {
+  font-size: 14px;
+  padding: 12px;
+  border: 1px solid #b4b4b4;
+  border-radius: 10px;
+  transition: 0.5s;
+  margin-left: 10px;
+}
+section.main .content .listProducts .product__action i:hover {
+  background: #789629;
+  color: #fff;
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=listProducts.css.map */

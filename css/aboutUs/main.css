@@ -1,0 +1,51 @@
+section.aboutUs {
+  margin: 30px auto 85px auto;
+}
+section.aboutUs h1 {
+  font-size: 28px;
+  font-family: "openSans";
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 30px;
+}
+section.aboutUs .introduce {
+  display: flex;
+  justify-content: space-between;
+}
+section.aboutUs .introduce__image {
+  background: url("../../images/image28.jpg") no-repeat;
+  width: 49%;
+  height: 366px;
+  background-position: center;
+}
+section.aboutUs .introduce__detail {
+  width: 49%;
+}
+section.aboutUs .introduce__detail__logo {
+  background: url("../../images/logo.png") no-repeat;
+  width: 180px;
+  height: 55px;
+  background-position: center;
+  margin-bottom: 30px;
+}
+section.aboutUs .introduce__detail h2 {
+  font-size: 18px;
+  font-family: "openSans";
+  margin-bottom: 20px;
+  color: #202020;
+  text-transform: uppercase;
+}
+section.aboutUs .introduce__detail p {
+  font-size: 14px;
+  font-family: "openSans";
+  color: #6d6d6d;
+  margin-bottom: 25px;
+}
+section.aboutUs .introduce__detail span {
+  font-size: 14px;
+  font-family: "openSans";
+  cursor: pointer;
+  color: #818181;
+}
+
+/*# sourceMappingURL=main.css.map */

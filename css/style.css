@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: viceroy;
+  src: url("../fonts/UTM ViceroyJF.ttf");
+}
+@font-face {
+  font-family: openSansBold;
+  src: url("../fonts/OpenSans-Bold.ttf");
+}
+@font-face {
+  font-family: openSansLight;
+  src: url("../fonts/OpenSans-Light.ttf");
+}
+@font-face {
+  font-family: openSansItalic;
+  src: url("../fonts/OpenSans-Italic.ttf");
+}
+@font-face {
+  font-family: openSansSemiBold;
+  src: url("../fonts/OpenSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: openSans;
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+@font-face {
+  font-family: lobster;
+  src: url("../fonts/Lobster-Regular.ttf");
+}
+@font-face {
+  font-family: androgyne;
+  src: url("../fonts/UTM Androgyne.ttf");
+}
+@font-face {
+  font-family: roboto;
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: robotoLight;
+  src: url("../fonts/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: robotoMedium;
+  src: url("../fonts/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: robotoSlabLight;
+  src: url("../fonts/RobotoSlab-Light.ttf");
+}
+.container {
+  width: 60%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */

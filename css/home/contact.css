@@ -1,0 +1,242 @@
+.contact {
+  margin-bottom: 90px;
+}
+.contact__icon {
+  font-size: 14px;
+  font-family: "openSansBold";
+  margin-top: 45px;
+  margin-bottom: 65px;
+}
+.contact__icon i {
+  position: relative;
+  width: 16.66666667%;
+  text-align: center;
+  opacity: 0.5;
+}
+.contact__icon i p {
+  font-size: 14px;
+  font-family: "openSansBold";
+  text-transform: uppercase;
+  display: inline-block;
+}
+.contact__icon i:hover {
+  opacity: 1;
+}
+.contact__icon i::before {
+  display: inline-block;
+  padding: 8px;
+  border: 2px solid #050505;
+  border-radius: 50%;
+  margin-right: 5px;
+  width: 15px;
+  height: 15px;
+}
+.contact__description {
+  display: flex;
+  justify-content: space-between;
+}
+.contact__description .introduction {
+  width: 32%;
+  overflow: hidden;
+}
+.contact__description .introduction__title {
+  font-size: 16px;
+  font-family: "openSansBold";
+  position: relative;
+  text-align: center;
+  margin-bottom: 65px;
+}
+.contact__description .introduction__title:after {
+  background: url("../../images/icon4.png") no-repeat;
+  width: 370px;
+  height: 10px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  z-index: 2;
+  content: "";
+  margin-left: -185px;
+}
+.contact__description .introduction__logo {
+  background: url("../../images/logo.png") no-repeat;
+  width: 180px;
+  height: 55px;
+  margin-bottom: 43px;
+}
+.contact__description .introduction h2 {
+  font-size: 12px;
+  font-family: "openSansSemiBold";
+  color: #050505;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.contact__description .introduction p {
+  font-size: 12px;
+  font-family: "openSans";
+  margin-bottom: 20px;
+}
+.contact__description .introduction span {
+  cursor: pointer;
+  font-size: 12px;
+  font-family: "openSansSemiBold";
+}
+.contact__description .blog {
+  width: 32%;
+  overflow: hidden;
+}
+.contact__description .blog__title {
+  font-size: 16px;
+  font-family: "openSansBold";
+  position: relative;
+  text-align: center;
+  margin-bottom: 65px;
+}
+.contact__description .blog__title:after {
+  background: url("../../images/icon4.png") no-repeat;
+  width: 370px;
+  height: 10px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  z-index: 2;
+  content: "";
+  margin-left: -185px;
+}
+.contact__description .blog__image {
+  background: url("../../images/image7.png") no-repeat;
+  width: 100%;
+  height: 188px;
+  background-position: center;
+  margin-bottom: 16px;
+  position: relative;
+}
+.contact__description .blog__image::after {
+  content: "";
+  position: absolute;
+  top: 3%;
+  left: 2%;
+  z-index: 2;
+  width: 96%;
+  height: 86%;
+}
+.contact__description .blog h2 {
+  font-size: 12px;
+  font-family: "openSansSemiBold";
+  color: #050505;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.contact__description .blog p {
+  font-size: 12px;
+  font-family: "openSans";
+  margin-bottom: 20px;
+}
+.contact__description .blog i {
+  font-size: 12px;
+  font-family: "openSansItalic";
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 13px 0 17px 0;
+  color: #d4d4d4;
+}
+.contact__description .blog span {
+  font-size: 12px;
+  font-family: "openSans";
+  display: inline-block;
+  color: #d4d4d4;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.contact__description .blog span:nth-child(7) {
+  float: right;
+}
+.contact__description .email {
+  width: 32%;
+  overflow: hidden;
+}
+.contact__description .email__title {
+  font-size: 16px;
+  font-family: "openSansBold";
+  position: relative;
+  text-align: center;
+  margin-bottom: 65px;
+}
+.contact__description .email__title:after {
+  background: url("../../images/icon4.png") no-repeat;
+  width: 370px;
+  height: 10px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  z-index: 2;
+  content: "";
+  margin-left: -185px;
+}
+.contact__description .email input {
+  font-size: 12px;
+  font-family: "openSansBold";
+  width: 97%;
+  margin-left: 1px;
+  padding: 13px 20px;
+}
+.contact__description .email p {
+  font-size: 12px;
+  font-family: "openSans";
+  margin: 12px 0;
+  text-align: center;
+}
+.contact__description .email .email__btn {
+  position: relative;
+  top: 0;
+  left: 50%;
+  z-index: 2;
+  width: 24px;
+  height: auto;
+  display: inline-block;
+  background: #1b1b1b;
+  color: #fff;
+  padding: 10px 27px;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: -25.5px;
+}
+.contact__description .email .tag {
+  width: 32%;
+  overflow: hidden;
+  width: 100%;
+}
+.contact__description .email .tag__title {
+  font-size: 16px;
+  font-family: "openSansBold";
+  position: relative;
+  text-align: center;
+  margin-bottom: 65px;
+}
+.contact__description .email .tag__title:after {
+  background: url("../../images/icon4.png") no-repeat;
+  width: 370px;
+  height: 10px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  z-index: 2;
+  content: "";
+  margin-left: -185px;
+}
+.contact__description .email .tag span {
+  font-size: 12px;
+  font-family: "openSans";
+  display: inline-block;
+  padding: 6px 8px;
+  margin: 5px 8px 5px 0;
+  transition: 0.5s;
+  border: 1px solid #e8e8e8;
+}
+.contact__description .email .tag span:hover {
+  background: #789629;
+  color: #fff;
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=contact.css.map */

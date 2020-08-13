@@ -1,0 +1,62 @@
+section.cart {
+  margin: 30px auto 85px auto;
+}
+section.cart h1 {
+  font-size: 28px;
+  font-family: "openSans";
+  text-transform: uppercase;
+  color: #212121;
+  margin-bottom: 30px;
+}
+section.cart table {
+  border: 1px solid #e1e1e1;
+  border-collapse: collapse;
+}
+section.cart table tr {
+  border: 1px solid #e1e1e1;
+  border-collapse: collapse;
+}
+section.cart table tr th {
+  font-size: 16px;
+  font-family: "openSans";
+  color: #212121;
+  text-transform: uppercase;
+  border: 1px solid #e1e1e1;
+  border-collapse: collapse;
+  padding: 12px;
+  background-color: #fafafa;
+}
+section.cart table tr td {
+  text-align: center;
+  border: 1px solid #e1e1e1;
+  border-collapse: collapse;
+  padding: 35px;
+}
+section.cart table tr td:nth-child(1) {
+  background: url("../../images/image27.jpg") no-repeat;
+  width: 120px;
+  height: 160px;
+  background-position: center;
+}
+section.cart .action {
+  margin: 30px 0 85px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+section.cart .action a {
+  font-size: 12px;
+  font-family: "openSans";
+  margin-left: 10px;
+  background: #212121;
+  color: #fff;
+  padding: 10px 20px;
+  transition: 0.5s;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+section.cart .action a:hover {
+  background: #789629;
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=shoppingCart.css.map */

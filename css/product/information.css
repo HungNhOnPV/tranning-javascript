@@ -1,0 +1,141 @@
+section.information {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+section.information .content {
+  width: 73%;
+}
+section.information .content__nav {
+  border-bottom: 1px solid #e6e6e6;
+}
+section.information .content__nav h1 {
+  font-size: 21px;
+  font-family: "openSansBold";
+  display: inline-block;
+  margin-right: 28px;
+  color: #818181;
+  padding-bottom: 13px;
+  text-transform: uppercase;
+}
+section.information .content__nav .active {
+  color: #131313;
+}
+section.information .content__detail {
+  margin-top: 55px;
+  display: flex;
+  justify-content: space-between;
+}
+section.information .content__detail__description h2 {
+  font-size: 18px;
+  font-family: "openSans";
+  position: relative;
+  margin-bottom: 27px;
+}
+section.information .content__detail__description h2::after {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: 2;
+  width: 70px;
+  height: 2px;
+  content: "";
+  background: #e6e6e6;
+}
+section.information .content__detail__description p {
+  font-size: 12px;
+  font-family: "openSans";
+  color: #737373;
+}
+section.information .content__detail:nth-child(2) .content__detail__image {
+  background: url("../../images/image22.jpg") no-repeat;
+  width: 320px;
+  height: 180px;
+  background-position: center;
+}
+section.information .content__detail:nth-child(3) .content__detail__image {
+  background: url("../../images/image23.jpg") no-repeat;
+  width: 320px;
+  height: 180px;
+  background-position: center;
+}
+section.information .content__detail:nth-child(3) .content__detail__description h2, section.information .content__detail:nth-child(3) .content__detail__description p {
+  text-align: right;
+}
+section.information .content__detail:nth-child(3) .content__detail__description h2::after {
+  right: 0;
+  left: auto;
+}
+section.information .content__detail:nth-child(4) .content__detail__image {
+  background: url("../../images/image24.jpg") no-repeat;
+  width: 320px;
+  height: 245px;
+  background-position: center;
+}
+section.information .content__detail:nth-child(5) .content__detail__image {
+  background: url("../../images/image25.jpg") no-repeat;
+  width: 320px;
+  height: 180px;
+  background-position: center;
+}
+section.information .content__detail:nth-child(5) .content__detail__description h2, section.information .content__detail:nth-child(5) .content__detail__description p {
+  text-align: right;
+}
+section.information .content__detail:nth-child(5) .content__detail__description h2::after {
+  right: 0;
+  left: auto;
+}
+section.information .sidebar {
+  width: 25%;
+}
+section.information .sidebar .sale h1, section.information .sidebar .best h1 {
+  font-size: 21px;
+  font-family: "openSansBold";
+  width: 100%;
+  display: inline-block;
+  margin-right: 28px;
+  color: #818181;
+  padding-bottom: 13px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e6e6e6;
+}
+section.information .sidebar .sale .product, section.information .sidebar .best .product {
+  display: flex;
+  border-bottom: 1px dashed #e6e6e6;
+  width: 100%;
+  margin-top: 12px;
+}
+section.information .sidebar .sale .product__image, section.information .sidebar .best .product__image {
+  background: url("../../images/image26.jpg") no-repeat;
+  width: 104px;
+  height: 120px;
+  background-position: center;
+  margin-right: 20px;
+}
+section.information .sidebar .sale .product__detail h2, section.information .sidebar .best .product__detail h2 {
+  font-size: 13px;
+  font-family: "openSans";
+  padding-bottom: 15px;
+}
+section.information .sidebar .sale .product__detail__icon, section.information .sidebar .best .product__detail__icon {
+  font-size: 12px;
+  font-family: "openSansLight";
+}
+section.information .sidebar .sale .product__detail__icon i, section.information .sidebar .best .product__detail__icon i {
+  margin: 0 3px 15px 0;
+}
+section.information .sidebar .sale .product__detail__icon p, section.information .sidebar .best .product__detail__icon p {
+  display: inline;
+}
+section.information .sidebar .sale .product__detail h3, section.information .sidebar .best .product__detail h3 {
+  font-size: 14px;
+  font-family: "lobster";
+}
+section.information .sidebar .sale .product:nth-child(4) {
+  border: none;
+}
+section.information .sidebar .best .product:nth-child(5) {
+  border: none;
+}
+
+/*# sourceMappingURL=information.css.map */
