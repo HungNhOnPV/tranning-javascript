@@ -40,6 +40,27 @@ section.account .table table tr td {
 section.account .table table tr td:nth-child(3) {
   color: #d90a0a;
 }
+section.account .table .action {
+  margin: 30px 0 85px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+section.account .table .action a {
+  font-size: 12px;
+  font-family: "openSans";
+  margin-left: 10px;
+  background: #212121;
+  color: #fff;
+  padding: 10px 20px;
+  transition: 0.5s;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+section.account .table .action a:hover {
+  background: #789629;
+  transition: 0.5s;
+}
 section.account .detailAccount {
   width: 23%;
 }
