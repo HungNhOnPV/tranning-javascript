@@ -13,9 +13,10 @@ $(document).ready(function() {
     for (let i = 0; i < carts.length; i++) {
       let total = carts[i].price * carts[i].count;
       let status = carts[i].status ? 'Đã thanh toán' : 'Chưa thanh toán';
+      let date = new Date();
       html += `<tr> 
                   <td>${i+1}</td>
-                  <td>May 13, 2013</td>
+                  <td>${carts[i].date}</td>
                   <td>${status}</td>
                   <td>${total}<sup>đ </sup></td>
                   <td>${total}<sup>đ </sup></td>

@@ -1,3 +1,48 @@
+section.progressbar {
+  counter-reset: step;
+}
+section.progressbar li {
+  list-style-type: none;
+  float: left;
+  width: 33.33%;
+  position: relative;
+  text-align: center;
+}
+section.progressbar li::before {
+  content: counter(step);
+  counter-increment: step;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ddd;
+  display: block;
+  text-align: center;
+  margin: 10px auto 10px auto;
+  border-radius: 50%;
+  background: #FFF;
+}
+section.progressbar li::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: #ddd;
+  top: 25px;
+  left: -50%;
+  z-index: -1;
+}
+section.progressbar li:first-child::after {
+  content: none;
+}
+section.progressbar li.active {
+  color: #789629;
+}
+section.progressbar li.active::before {
+  border-color: #789629;
+}
+section.progressbar li.active + li::after {
+  background: #789629;
+}
 section.cart {
   margin: 30px auto 85px auto;
 }

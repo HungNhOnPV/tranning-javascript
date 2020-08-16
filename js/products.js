@@ -51,14 +51,17 @@ function handleAddToCart(value, products) {
   let carts = JSON.parse(window.localStorage.getItem("carts"))
     ? JSON.parse(window.localStorage.getItem("carts"))
     : [];
+  let date = new Date();
   products.forEach((product) => {
     if (value === product.id) {
       if (!carts[0]) {
+        product.date = `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`;
         product.status = false;
         product.count = 1;
         carts.push(product);
       } else {
         if(searchIndex(value) === -1) {
+          product.date = `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`;
           product.status = false;
           product.count = 1;
           carts.push(product);
