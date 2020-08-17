@@ -1,51 +1,44 @@
-$(document).ready(function () {
-  $.ajax({
-    method: "GET",
-    url: "http://localhost:3000/products",
-    data: null,
-    success: function (products) {
-      // window.localStorage.setItem("products", JSON.stringify(products));
-      const productsImg = [
-        ...document.querySelectorAll(".products .product .product__image"),
-      ];
-      const productsTitle = [
-        ...document.querySelectorAll(".products .product .product__detail h2"),
-      ];
-      const productsContent = [
-        ...document.querySelectorAll(".products .product .product__detail h3"),
-      ];
-      const productsPrice = [
-        ...document.querySelectorAll(
-          ".products .product .product__detail #price"
-        ),
-      ];
-      const productsSale = [
-        ...document.querySelectorAll(
-          ".products .product .product__detail #sale"
-        ),
-      ];
-      const addBtn = [
-        ...document.querySelectorAll(
-          ".products .product .product__action #btn"
-        ),
-      ];
-      for (let i = 0; i < productsImg.length; i++) {
-        productsImg[i].style.background = `url(${products[i].image}) no-repeat`;
-        productsTitle[i].innerHTML = products[i].title.toUpperCase();
-        productsContent[i].innerHTML = products[i].content;
-        productsPrice[i].innerHTML = products[i].price;
-        productsSale[i].innerHTML = " " + products[i].sale;
-      }
-      addBtn.forEach(
-        (el, i) => (el.onclick = () => handleAddToCart(products[i].id, products))
-      );
-    },
-    dataType: "json",
-  });
-  // .done(function( msg ) {
-  //
-  // });
-});
+fetch("http://localhost:3000/products")
+  .then(res => res.json())
+  .then(products => myFunction(products))
+  .catch( error => console.error('error:', error) );
+
+function myFunction(products) {
+  const productsImg = [
+    ...document.querySelectorAll(".products .product .product__image"),
+  ];
+  const productsTitle = [
+    ...document.querySelectorAll(".products .product .product__detail h2"),
+  ];
+  const productsContent = [
+    ...document.querySelectorAll(".products .product .product__detail h3"),
+  ];
+  const productsPrice = [
+    ...document.querySelectorAll(
+      ".products .product .product__detail #price"
+    ),
+  ];
+  const productsSale = [
+    ...document.querySelectorAll(
+      ".products .product .product__detail #sale"
+    ),
+  ];
+  const addBtn = [
+    ...document.querySelectorAll(
+      ".products .product .product__action #btn"
+    ),
+  ];
+  for (let i = 0; i < productsImg.length; i++) {
+    productsImg[i].style.background = `url(${products[i].image}) no-repeat`;
+    productsTitle[i].innerHTML = products[i].title.toUpperCase();
+    productsContent[i].innerHTML = products[i].content;
+    productsPrice[i].innerHTML = products[i].price;
+    productsSale[i].innerHTML = " " + products[i].sale;
+  }
+  addBtn.forEach(
+    (el, i) => (el.onclick = () => handleAddToCart(products[i].id, products))
+  );
+}
 
 function handleAddToCart(value, products) {
   let carts = JSON.parse(window.localStorage.getItem("carts"))
