@@ -1,8 +1,24 @@
-fetch("http://localhost:3000/products")
-  .then(res => res.json())
-  .then(products => myFunction(products))
-  .catch( error => console.error('error:', error) );
-
+// fetch("http://localhost:3000/products")
+//   .then(res => res.json())
+//   .then(products => myFunction(products))
+//   .catch( error => console.error('error:', error) );
+let xhr = new XMLHttpRequest();
+xhr.open('GET', 'http://localhost:3000/products');
+// request state change event
+xhr.onreadystatechange = function() {
+  // request completed?
+  if (xhr.readyState !== 4) return;
+  if (xhr.status === 200) {
+    // request successful - show response
+    myFunction(JSON.parse(xhr.responseText));
+  }
+  else {
+    // request error
+    console.log('HTTP error', xhr.status, xhr.statusText);
+  }
+};
+// start request
+xhr.send();
 function myFunction(products) {
   const productsImg = [
     ...document.querySelectorAll(".products .product .product__image"),
