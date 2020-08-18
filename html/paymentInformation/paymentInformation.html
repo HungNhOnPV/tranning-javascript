@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../../fontawesome-free-5.13.0-web/css/all.min.css"/>
     <link rel="stylesheet" href="../../css/products/path.css"/>
     <link rel="stylesheet" href="../../css/products/navbar.css"/>
-    <link rel="stylesheet" href="../../css/products/main.css"/>
+    <link rel="stylesheet" href="../../css/paymentInformation/paymentInformation.css"/>
   </head>
   <body>
     <header>
@@ -115,104 +115,42 @@
           <p>Sản phẩm</p></span><span class="active"><i class="fas fa-chevron-right"> </i>
           <p>Trang sức</p></span>
       </section>
-      <section class="navbar">
-        <div class="container">
-          <div class="content">
-            <h1>Giảm giá 50%</h1>
-            <p>Trong vòng 3 ngày <br/>(25/5 - 28/5/2015)</p>
-          </div>
-        </div>
-      </section>
       <section class="progressbar container">
-        <li class="active">Step 1</li>
+        <li>Step 1</li>
         <li>Step 2</li>
-        <li>Step 3</li>
+        <li class="active">Step 3</li>
       </section>
-      <section class="main container"> 
-        <sidebar><i class="fas fa-bars">
-            <h3>Danh mục sản phẩm</h3></i>
-          <div class="title"> <span class="active">Trang sức</span><i class="fas fa-caret-down fa--black"></i>
+      <section class="register container"> 
+        <h1>Thanh toán</h1>
+        <form class="form" name="jsonForm">
+          <h2>Thông tin của bạn </h2>
+          <div class="form__input"> 
+            <label for="name">Tên*</label>
+            <input type="text" name="name" id="name" />
           </div>
-          <ul>
-            <li><a href="../product/product.html">Vòng tay</a></li>
-            <li><a href="../product/product.html">Nhẫn</a></li>
-            <li><a href="../product/product.html">Lắc tay</a></li>
-            <li><a href="../product/product.html">Phụ kiện khác</a></li>
-            <li><a href="../product/product.html">Giày lười Giày Mọi</a></li>
-          </ul>
-          <div class="title"> <span>Nước hoa</span><i class="fas fa-caret-right"></i>
+          <div class="form__input"> 
+            <label for="phone">Số điện thoại*</label>
+            <input type="number" name="phone" id="phone"/>
           </div>
-          <div class="title"> <span>Dưỡng da</span><i class="fas fa-caret-right"></i>
+          <div class="form__input"> 
+            <label for="email">Email*</label>
+            <input type="text" name="email" id="email"/>
           </div>
-          <h3>So sánh sản phẩm</h3>
-          <p>Bạn chưa có sản phẩm nào đe so sánh</p>
-          <h3>Tag sản phẩm</h3>
-          <div class="tag"><span>Hoa tai</span><span>Son</span><span>Nước hoa</span><span>Giày</span><span>Sandal</span><span>Áo sơ mi</span><span>Nước hoa</span><span>Trẻ em</span><span>Thời trang nữ</span>
+          <div class="form__input"> 
+            <label for="address">Address*</label>
+            <input type="text" name="address" id="address"/>
           </div>
-          <div class="image">
-            <h1>Mandala store</h1>
+          <h2>Hình thức thanh toán </h2>
+          <div class="form__radio"> 
+            <label for="ck">Chuyển khoản</label>
+            <input type="radio" name="pay" id="ck" value="ck" />
           </div>
-        </sidebar>
-        <div class="content">
-          <div class="header">
-            <div class="type"><a href="../products/jewelry.html"><i class="fas fa-th-large"></i></a><a href="../products/listProducts.html"><i class="fas fa-list-ul"></i></a></div>
-            <div class="list"><i class="fas fa-caret-left"></i><span>1</span><span>2</span><span>3</span><i class="fas fa-caret-right"></i></div>
+          <div class="form__radio">
+            <label for="tm">Tiền mặt</label>
+            <input type="radio" name="pay" id="tm" value="tm"/>
           </div>
-          <div class="products">
-            <div class="product">
-              <div class="product__image"></div>
-              <div class="product__detail">
-                <h2></h2>
-                <h3></h3><i id="price"><sup>đ</sup></i><i id="sale"><sup>đ</sup></i>
-              </div>
-              <div class="product__action"><span id="btn">MUA HÀNG</span><i class="fas fa-heart"></i><i class="fas fa-sync-alt"></i></div>
-            </div>
-            <div class="product">
-              <div class="product__image"></div>
-              <div class="product__detail">
-                <h2></h2>
-                <h3></h3><i id="price"><sup>đ</sup></i><i id="sale"><sup>đ</sup></i>
-              </div>
-              <div class="product__action"><span id="btn">MUA HÀNG</span><i class="fas fa-heart"></i><i class="fas fa-sync-alt"></i></div>
-            </div>
-            <div class="product">
-              <div class="product__image"></div>
-              <div class="product__detail">
-                <h2></h2>
-                <h3></h3><i id="price"><sup>đ</sup></i><i id="sale"><sup>đ</sup></i>
-              </div>
-              <div class="product__action"><span id="btn">MUA HÀNG</span><i class="fas fa-heart"></i><i class="fas fa-sync-alt"></i></div>
-            </div>
-            <div class="product">
-              <div class="product__image"></div>
-              <div class="product__detail">
-                <h2></h2>
-                <h3></h3><i id="price"><sup>đ</sup></i><i id="sale"><sup>đ</sup></i>
-              </div>
-              <div class="product__action"><span id="btn">MUA HÀNG</span><i class="fas fa-heart"></i><i class="fas fa-sync-alt"></i></div>
-            </div>
-            <div class="product">
-              <div class="product__image"></div>
-              <div class="product__detail">
-                <h2></h2>
-                <h3></h3><i id="price"><sup>đ</sup></i><i id="sale"><sup>đ</sup></i>
-              </div>
-              <div class="product__action"><span id="btn">MUA HÀNG</span><i class="fas fa-heart"></i><i class="fas fa-sync-alt"></i></div>
-            </div>
-            <div class="product">
-              <div class="product__image"></div>
-              <div class="product__detail">
-                <h2></h2>
-                <h3></h3><i id="price"><sup>đ</sup></i><i id="sale"><sup>đ</sup></i>
-              </div>
-              <div class="product__action"><span id="btn">MUA HÀNG</span><i class="fas fa-heart"></i><i class="fas fa-sync-alt"></i></div>
-            </div>
-          </div>
-          <div class="footer">
-            <div class="type"><a href="../products/jewelry.html"><i class="fas fa-th-large"></i></a><a href="../products/listProducts.html"><i class="fas fa-list-ul"></i></a></div>
-            <div class="list"><i class="fas fa-caret-left"></i><span>1</span><span>2</span><span>3</span><i class="fas fa-caret-right"></i></div>
-          </div>
-        </div>
+          <div class="form__action"> <span class="pay">Thanh toán</span><span class="back">Thoát</span></div>
+        </form>
       </section>
     </main>
     <footer>
@@ -273,6 +211,6 @@
         </div>
       </div>
     </footer>
-    <script type="text/javascript" src="../../js/products.js"></script>
+    <script type="text/javascript" src="../../js/paymentInformation.js"></script>
   </body>
 </html>

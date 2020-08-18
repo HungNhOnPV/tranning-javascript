@@ -1,6 +1,9 @@
-let carts = JSON.parse(window.localStorage.getItem("carts")) ? JSON.parse(window.localStorage.getItem("carts")) : [];
+let carts = JSON.parse(window.localStorage.getItem("carts"))
+  ? JSON.parse(window.localStorage.getItem("carts"))
+  : [];
 const table = document.querySelector(".cart table");
 const removeCart = document.querySelector(".cart__remove");
+const cartPay = document.querySelector(".cart__pay");
 let html = `<tr>
               <th>Ảnh</th>
               <th>Tên sản phẩm</th>
@@ -9,7 +12,7 @@ let html = `<tr>
               <th>Tổng số</th>
               <th>Xóa</th>
             </tr>`;
-if(carts.length > 0) {
+if (carts.length > 0) {
   for (let i = 0; i < carts.length; i++) {
     let total = carts[i].price * carts[i].count;
     html += `<tr class="tr"> 
@@ -20,7 +23,7 @@ if(carts.length > 0) {
     <td class="cart__total">${total}<sup>đ </sup></td>
     <td class="cart__trash"> <i class="fas fa-trash-alt"></i>
     </td>
-  </tr>`
+  </tr>`;
   }
   table.innerHTML = html;
 } else {
@@ -30,4 +33,13 @@ removeCart.onclick = () => handleRemoveCart();
 
 handleRemoveCart = () => {
   window.localStorage.removeItem("carts");
-}
+};
+cartPay.onclick = () => handleCartPay();
+
+handleCartPay = () => {
+  !carts[0]
+    ? alert("Không có sản phẩm nào trong giỏ hàng!")
+    : location.assign(
+        "http://127.0.0.1:5500/html/paymentInformation/paymentInformation.html"
+      );
+};
