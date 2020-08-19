@@ -68,14 +68,17 @@ function handleAddToCart(value, products) {
         product.status = false;
         product.count = 1;
         carts.push(product);
+        alert("Thêm sản phẩm vào giỏ hàng.");
       } else {
         if(searchIndex(value) === -1) {
           product.date = `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`;
           product.status = false;
           product.count = 1;
           carts.push(product);
+          alert("Thêm sản phẩm vào giỏ hàng.");
         } else {
           carts[searchIndex(value)].count++;
+          alert("Thêm sản phẩm vào giỏ hàng.");
         }
       }
     }

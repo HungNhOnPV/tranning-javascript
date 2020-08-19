@@ -4,6 +4,7 @@ let carts = JSON.parse(window.localStorage.getItem("carts"))
 const table = document.querySelector(".cart table");
 const removeCart = document.querySelector(".cart__remove");
 const cartPay = document.querySelector(".cart__pay");
+const totalCart = document.querySelector(".totalCarts");
 let html = `<tr>
               <th>Ảnh</th>
               <th>Tên sản phẩm</th>
@@ -13,8 +14,10 @@ let html = `<tr>
               <th>Xóa</th>
             </tr>`;
 if (carts.length > 0) {
+  let totalCarts = 0;
   for (let i = 0; i < carts.length; i++) {
     let total = carts[i].price * carts[i].count;
+    totalCarts += total;
     html += `<tr class="tr"> 
     <td class="cart__image" style="background: url(${carts[i].image}) no-repeat center; background-size: contain"> </td>
     <td class="cart__title">${carts[i].title} </td>
@@ -25,6 +28,7 @@ if (carts.length > 0) {
     </td>
   </tr>`;
   }
+  totalCart.innerHTML = `Tổng: ${totalCarts}`;
   table.innerHTML = html;
 } else {
   table.innerHTML = html;

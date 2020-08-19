@@ -4,6 +4,7 @@ const back = document.querySelector(".back");
 function getData(jsonForm) {
   var el = document.querySelector("form[name=" + jsonForm + "]");
   var inputs = el.querySelectorAll("input");
+  let carts = JSON.parse(localStorage.getItem("carts"));
 
   var data = {};
   for (var i = 0; i < inputs.length; i++) {
@@ -17,6 +18,7 @@ function getData(jsonForm) {
         data[inputs[i].name] = inputs[i].value;
     }
   }
+  data["carts"] = carts;
   return data;
 }
 

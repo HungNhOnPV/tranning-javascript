@@ -57,11 +57,37 @@
   ],
   "users": [
     {
-      "name": "Ngô Thị Hương",
+      "name": "React JS",
       "phone": "0972093127",
-      "email": "ngothihuong@gmail.com",
+      "email": "anh@gmail.com",
       "address": "Hà Nội",
       "pay": "ck",
+      "carts": [
+        {
+          "id": 1,
+          "title": "tyffany",
+          "content": "Mỹ phẩm châu âu",
+          "price": 350000,
+          "sale": 450000,
+          "image": "http://127.0.0.1:5500/images/image9.jpg",
+          "amount": 20,
+          "date": "19/7/2020",
+          "status": false,
+          "count": 2
+        },
+        {
+          "id": 2,
+          "title": "ohui",
+          "content": "Mỹ phẩm châu âu",
+          "price": 350000,
+          "sale": 450000,
+          "image": "http://127.0.0.1:5500/images/image10.jpg",
+          "amount": 20,
+          "date": "19/7/2020",
+          "status": false,
+          "count": 3
+        }
+      ],
       "id": 1
     }
   ]
